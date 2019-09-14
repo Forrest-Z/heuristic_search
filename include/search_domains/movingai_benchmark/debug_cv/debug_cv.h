@@ -36,8 +36,9 @@
 #ifndef MOVINGAI_BENCHMARK_DEBUG_OPENCV_H
 #define MOVINGAI_BENCHMARK_DEBUG_OPENCV_H
 
-#include <opencv/cv.h>
-#include <opencv/highgui.h>
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
 
 #include "search_domains/movingai_benchmark/Domain.h"
 

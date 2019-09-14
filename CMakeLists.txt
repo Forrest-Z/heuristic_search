@@ -5,7 +5,7 @@ set(CMAKE_BUILD_TYPE Release)
 
 add_definitions("-std=c++11 -Wall")
 
-
+set(OpenCV_DIR /opt/ros/kinetic/share/OpenCV-3.3.1-dev)
 find_package( OpenCV REQUIRED )
 find_package( Boost COMPONENTS system filesystem thread program_options REQUIRED )
 include_directories( ${Boost_INCLUDE_DIR} )
