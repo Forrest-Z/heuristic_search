@@ -2,6 +2,8 @@
 
 Heuristic Search Library is the open-source C++ library with the generic implementations of several incremental search algorithms based on A\*:
 
+Originally found on Sourceforge. See https://bitbucket.org/maciej_przybylski/heuristic_search/src/master/
+
 * A\*
 * Repeated A\*
 * [D\*-Lite](https://pdfs.semanticscholar.org/9c09/36e2fba53deb0516c7ba596bfacfe9a038a1.pdf)
